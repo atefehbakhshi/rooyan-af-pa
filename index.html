@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rooyan afzar</title>
+  </head>
+  <body class="text-xs p-1">
+    <!-- row one -->
+    <div class="flex justify-between gap-4 w-full">
+      <div class="flex gap-2 min-w-[10%]">
+        <p class="text-blue-800">شماره برگه:</p>
+        <span
+          class="bg-blue-400 inline-block w-10 text-center text-white text-[0.5rem]"
+          >1</span
+        >
+      </div>
+
+      <div class="flex gap-2 min-w-[10%]">
+        <p class="text-blue-800">سریال:</p>
+        <span
+          class="bg-blue-400 inline-block w-10 text-center text-white text-[0.5rem]"
+          >4</span
+        >
+      </div>
+
+      <div class="flex gap-2 items-center min-w-[60%]">
+        <p class="text-blue-800">نوع برگه:</p>
+        <select name="paper-type" id="paper-type" class="w-[90%]">
+          <option value="public">سند عمومی</option>
+        </select>
+      </div>
+      <div class="flex gap-2 min-w-[10%]">
+        <button class="text-blue-800">بسته</button>
+        <div class="flex">
+          <span
+            class="w-4 h-4 bg-gray-100 border flex justify-center items-center text-green-500 font-bold text-sm"
+            >+</span
+          >
+          <span
+            class="w-4 h-4 bg-gray-100 border flex justify-center items-center text-red-500 font-bold text-sm"
+            >-</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- end of row one -->
+  </body>
+</html>
